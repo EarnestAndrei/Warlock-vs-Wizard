@@ -43,6 +43,6 @@ public class App {
         Wizard Linley = new Wizard("Linley",1,100,200);
         Warlock Leylin = new Warlock("Leylin",1,200,100);
         Linley.Display();
-        Linley.fireStorm(Leylin);
+        Linley.EarthShatter(Leylin);
     }
 }
