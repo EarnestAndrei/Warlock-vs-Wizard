@@ -40,9 +40,33 @@ public class App {
          * Merlin.firestorm(Saruman); // Saruman HP Deducted
          * Warlock.recover() // Saruman HP and MP increases
          */
-        Wizard Linley = new Wizard("Linley",1,100,200);
-        Warlock Leylin = new Warlock("Leylin",1,200,100);
+        Wizard Linley = new Wizard("Linley",1,250,200);
+        Warlock Leylin = new Warlock("Leylin",1,90,200);
         Linley.Display();
-        Linley.EarthShatter(Leylin);
+        Leylin.Display();
+        Linley.EarthSpear(Leylin);
+        Linley.Display();
+        Leylin.Display();
+        Leylin.WarpReality();;
+        Linley.Display();
+        Leylin.Display();
+        Linley.DimensionalEdge(Leylin);;
+        Linley.Display();
+        Leylin.Display();
+        Leylin.FallofSevenSins(Linley);;
+        Linley.Display();
+        Leylin.Display();
+        Linley.DimensionalEdge(Leylin);
+        Linley.Display();
+        Leylin.Display();
+        Leylin.FallofSevenSins(Linley);
+        Linley.Display();
+        Leylin.Display();
+        Linley.DragonbloodRegeneration();
+        Linley.Display();
+        Leylin.Display();
+        Leylin.FallofSevenSins(Linley);
+        Leylin.increaseLevel(Linley);
+        Leylin.Display();
     }
 }
