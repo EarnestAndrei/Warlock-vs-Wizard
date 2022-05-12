@@ -6,6 +6,11 @@ public class Wizard extends Character{
         System.out.println(super.characterName + "attacks " + enemyCharacter.characterName + " with Earth Shattter (Damage - 50)");
         int damagePoints = 50;
         damageTarget(enemyCharacter, damagePoints);
-    };
+    }
+    public void DimensionalEdge(Character enemyCharacter){
+        System.out.println(super.characterName + "attacks " + enemyCharacter.characterName + " with Dimensional Edge (Damage - 70)");
+        int damagePoints = 70;
+        damageTarget(enemyCharacter, damagePoints);
+    }
     
 }
